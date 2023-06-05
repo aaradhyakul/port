@@ -4,9 +4,14 @@ import {styles} from '../styles'
 import {navLinks} from '../constants'
 import {logo,menu,close} from '../assets'
 
-const Navbar = () => {
-  const [active,setActive] = useState("");
+const Navbar = ({activeHandler,active}) => {
   const [toggle,setToggle] = useState(false);
+  // const eleScroll = (id)=>{
+  //   const ele = document.querySelector(`#${id}`);
+
+  //   ele.scrollIntoView(alignToTop);
+
+  // }
   return (
     <nav className={`${styles.paddingX} w-full flex item-center py-5 fixed top-0 z-20 bg-primary`}>
       <div className="w-full flex justify-between items-center max-w-screen-2xl mx-auto">
@@ -21,8 +26,11 @@ const Navbar = () => {
             navLinks.map(link=>{
               return (
                 <li key={link.id}
-                    className={`${active ? "text-white":"text-secondary"} hover:text-white text-[18px] font-medium  cursor-pointer`}
-                    onClick={()=>setActive(link.title)}>
+                    className={`${active===link.title ? "text-white":"text-secondary"} hover:text-white text-[18px] font-medium  cursor-pointer`}
+                    onClick={(e)=>{
+                                  activeHandler(link.title);
+                                  }}>
+
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               )
@@ -38,9 +46,9 @@ const Navbar = () => {
             navLinks.map(link=>{
               return (
                 <li key={link.id}
-                    className={`${active ? "text-white":"text-secondary"} font-poppins font-medium cursor-pointer text-[16px]`}
+                    className={`${active===link.title ? "text-white":"text-secondary"} font-poppins font-medium cursor-pointer text-[16px]`}
                     onClick={()=>{
-                      setActive(link.title);
+                      activeHandler(link.title);
                       setToggle(toggle=>!toggle)}}>
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
