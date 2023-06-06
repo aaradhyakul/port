@@ -19,6 +19,7 @@ import {
     starbucks,
     tesla,
     shopify,
+    dvm,
     carrent,
     jobit,
     tripguide,
@@ -118,7 +119,7 @@ import {
     {
       title: "React.js Developer",
       company_name: "DVM",
-      icon: null,
+      icon: dvm,
       iconBg: "#383E56",
       date: "July 2022 - Jan 2023",
       points: [
