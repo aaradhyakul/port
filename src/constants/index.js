@@ -118,7 +118,7 @@ import {
     {
       title: "React.js Developer",
       company_name: "DVM",
-      icon: starbucks,
+      icon: null,
       iconBg: "#383E56",
       date: "July 2022 - Jan 2023",
       points: [
@@ -131,7 +131,7 @@ import {
     {
       title: "React.js Developer",
       company_name: "RC club",
-      icon: tesla,
+      icon: null,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - May 2023",
       points: [
@@ -144,7 +144,7 @@ import {
     {
       title: "Web Developer",
       company_name: "Race2Cloud",
-      icon: shopify,
+      icon: null,
       iconBg: "#383E56",
       date: "June 2023 - currently",
       points: [
