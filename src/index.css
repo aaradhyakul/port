@@ -11,6 +11,28 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   color-scheme: dark;
+  cursor: none;
+}
+
+.trail-scroll{
+  position: fixed;
+  top:0;
+  left:0;
+  width: 16px;
+  height: 16px;
+  /* background: radial-gradient(#00cea8, #8f46a9); */
+  background-color: #00cea8;
+  z-index: 10;
+  border-radius: 50%;
+  pointer-events: none;
+}
+.leader{
+  box-shadow: 0 0 10px 1px #00cea8;
+
+}
+.trail-scroll.followers{
+  transform-origin: center;
+  transform: scale(0.3);
 }
 
 .hash-span {
