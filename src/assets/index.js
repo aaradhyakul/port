@@ -30,6 +30,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import dvm from "./company/dvm.png"
+import rc from "./company/rc.jpeg"
 
 export {
   logo,
@@ -60,5 +61,6 @@ export {
   carrent,
   jobit,
   tripguide,
-  dvm
+  dvm,
+  rc
 };

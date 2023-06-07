@@ -15,11 +15,8 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     dvm,
+    rc,
     carrent,
     jobit,
     tripguide,
@@ -132,7 +129,7 @@ import {
     {
       title: "React.js Developer",
       company_name: "RC club",
-      icon: null,
+      icon: rc,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - May 2023",
       points: [
