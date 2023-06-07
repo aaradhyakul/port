@@ -24,7 +24,6 @@ const App =()=> {
       circles.forEach((circle,index)=>{
         circle.style.left = x - 8 + "px";
         circle.style.top = y - 8 + "px";
-        // circle.style.scale = (circles.length - index*0.4)/circles.length;
         circle.style.opacity = (circles.length - index*0.9)/circles.length;
         circle.style.zIndex = 10 + circles.length - index;
         circle.x = x;
@@ -42,7 +41,6 @@ const App =()=> {
     window.addEventListener('mousemove',(e)=>{
       coords.x = e.clientX;
       coords.y = e.clientY;
-      // console.log(coords)
       animateCircles();
      
     })

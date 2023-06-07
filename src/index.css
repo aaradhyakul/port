@@ -93,7 +93,6 @@ body::-webkit-scrollbar-thumb:hover{
   left:0;
   width: 16px;
   height: 16px;
-  /* background: radial-gradient(#00cea8, #8f46a9); */
   background-color: #00cea8;
   z-index: 10;
   border-radius: 50%;
