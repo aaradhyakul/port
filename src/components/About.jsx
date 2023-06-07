@@ -41,8 +41,7 @@ const About = () => {
         variants={fadeIn("","",0.1,1)} className='mt-4 text-secondary text-[17px] max-w-3xl  leading-[30px]'>
           I'm a skilled Web developer with experience in Javascript, Typescript 
           and expertise in UI libraries like React, StyledComponents, three.js and
-          frameworks like NEXT.js, node.js. I'm a quick learner and like to work
-          problems out in a holistic manner. Let's work together to bring your ideas
+          frameworks like NEXT.js, node.js. I'm a quick learner and like to break down large problems into small solvable pieces, a skill every front-end developer must hone. Let's work together to bring your ideas
           to life!!
 
       </motion.p>
