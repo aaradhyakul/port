@@ -42,7 +42,6 @@ body::-webkit-scrollbar-thumb:hover{
   position: absolute;
   left:50%;
   top:calc(50% + 100px);
-  background: #000000;
   width:120px;
   height: 120px;
   z-index: 20;
@@ -78,11 +77,11 @@ body::-webkit-scrollbar-thumb:hover{
   z-index: 5;
   width: 15px;
   height: 15px;
-  background: #00cea8;
-  box-shadow: 0 0 10px #00cea8,
-  0 0 20px #00cea8,0 0 30px #00cea8,0 0 40px #00cea8,0 0 50px #00cea8,0 0 60px #00cea8;
+  background: #42155f;
+  box-shadow: 0 0 10px #42155f,
+  0 0 20px #42155f,0 0 30px #42155f,0 0 40px #42155f,0 0 50px #42155f,0 0 60px #42155f;
   border-radius: 100%;
-  animation: rotateLoader 1s linear infinite;
+  animation: rotateLoader 2s linear infinite;
   animation-delay: calc(0.1s * var(--i));
 }
 @keyframes rotateLoader {
