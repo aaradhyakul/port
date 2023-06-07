@@ -42,10 +42,11 @@ body::-webkit-scrollbar-thumb:hover{
   position: absolute;
   left:50%;
   top:calc(50% + 100px);
-  width:120px;
-  height: 120px;
+  width:100px;
+  height: 100px;
   z-index: 20;
   transform: translate(-50%,-50%);
+  filter: brightness(200%);
   
 }
 
@@ -66,8 +67,8 @@ body::-webkit-scrollbar-thumb:hover{
   top:0;
   left:0;
   z-index: 5;
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   background: #42155f;
   box-shadow: 0 0 10px #42155f,
   0 0 20px #42155f,0 0 30px #42155f,0 0 40px #42155f,0 0 50px #42155f,0 0 60px #42155f;
